@@ -24,7 +24,7 @@ public class _7_002_ArrayList_Add {
 
         // Your code here
         names.add("hello");
-        names.add("Cybertek");
+        names.add("Pyhton");
         names.add("Java");
         //names.add("Selenium");
         //System.out.println(names.toString());

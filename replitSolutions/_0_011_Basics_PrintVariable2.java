@@ -3,7 +3,7 @@
 public class _0_011_Basics_PrintVariable2 {
     public static void main(String[] args) {
         //do not change
-        String message = "I am a Cybertek school student.";
+        String message = "I am a student.";
 
         System.out.println(message);
     }

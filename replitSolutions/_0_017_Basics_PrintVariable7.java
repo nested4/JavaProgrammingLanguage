@@ -25,7 +25,7 @@ public class _0_017_Basics_PrintVariable7 {
 
         //WRITE YOUR CODE BELOW THIS LINE:
 
-        System.out.println("I will learn \"" + topic1 + "\" and \"" + topic2 + "\" at CybertekSchool.");
+        System.out.println("I will learn \"" + topic1 + "\" and \"" + topic2 + "\" on Udemy.");
 
 
 

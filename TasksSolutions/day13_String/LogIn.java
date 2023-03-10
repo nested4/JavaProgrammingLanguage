@@ -15,7 +15,7 @@ public class LogIn {
 
         scan.close();
 
-        if(username.equals("Cydeo") && password.equals("WoodenSpoon")){
+        if(username.equals("student101") && password.equals("james101")){
             System.out.println("Logged In");
         }else{
             System.err.println("Incorrect username or password");
@@ -28,9 +28,9 @@ public class LogIn {
 
 }
 /*
-8. You are writing a code for the log-in function of the Cybertek Application, assume that your credentials are:
-                    username: Cydeo
-                    password: WoodenSpoon
+8. You are writing a code for the log-in function of the library Application, assume that your credentials are:
+                    username: student101
+                    password: james101
 
         Ask the user to enter their credentials. If credentials are matched, your program should print "Logged in."
         otherwise print "Incorrect username or password" as error message

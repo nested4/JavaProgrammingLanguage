@@ -44,7 +44,7 @@ public class _2_011_Statements_ApartmentLeasing1 {
         //DO NOT TOUCH THESE LINES. TEACHER NEEDS THEM TO TEST YOUR CODE:
         // Variables are already declared and given
         Scanner scan = new Scanner(System.in);
-        System.out.println("Welcome to Cybertek Apartments!");
+        System.out.println("Welcome to PoplarWoods Apartments!");
         System.out.println("Number of bedrooms you are interested:");
 
         int numberOfBedrooms = scan.nextInt();

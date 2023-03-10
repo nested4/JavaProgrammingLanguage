@@ -9,7 +9,7 @@ public class Elevator {
         if (floorNum == 10) {
             System.out.println("Floor 1 selected. Companies: Lobby, Verizon, Starbucks");
         } else if (floorNum == 2) {
-            System.out.println("Floor 2 selected. Companies: Cybertek, NASA, Intelsat");
+            System.out.println("Floor 2 selected. Companies: Apple, NASA, Intelsat");
         } else if (floorNum == 3) {
             System.out.println("Floor 3 selected. Companies: Lyft, BofA, Stake house");
         } else {
@@ -24,7 +24,7 @@ public class Elevator {
                 System.out.println("Floor 1 selected. Companies: Lobby, Verizon, Starbucks");
                 break; //EXIT SWITCH
             case 2:
-                System.out.println("Floor 2 selected. Companies: Cybertek, NASA, Intelsat");
+                System.out.println("Floor 2 selected. Companies: Apple, NASA, Intelsat");
                 break; //exit the switch statement
             case 3:
                 System.out.println("Floor 3 selected. Companies: Lyft, BofA, Stake house");
@@ -42,7 +42,7 @@ public class Elevator {
 /*
 2. Create a class called Elevator. A variable named floorNumber is given, write a program that can display the floor info
 			when floorNum is 1 -> print "Floor 1 selected. Companies: Lobby, Verizon, Starbucks"
-			when floorNum is 2 -> print "Floor 2 selected. Companies: Cybertek, NASA, Intelsat"
+			when floorNum is 2 -> print "Floor 2 selected. Companies: Apple, NASA, Intelsat"
 			when floorNum is 3 -> print "Floor 3 selected. Companies: Lyft, BofA, Stake house"
 			 anything else: print "Invalid floor - 6"
 

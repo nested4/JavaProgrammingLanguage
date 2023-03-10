@@ -29,11 +29,13 @@ public class Initial {
 4. write a program that can return the initials of the user
 
             ex:
-                cydeo
-                school
+                big
+                joe
+
+
 
             output:
-                C.S
+                B.J
 
         Note: Pay attention to the example output
  */
