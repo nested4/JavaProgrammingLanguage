@@ -1,0 +1,92 @@
+Day 09
+
+Operators
+
+Arithmetic Operators (+-*/%)   --done
+Unary Operators (+,-,++,--)
+Shorthand Operator ( =, +=,-=,*=,/=,%=)
+Relational Operators (>,<,>=,<=,==,!=)
+
+    Scanner
+    // Scanner.next() ilk space bosluga kadar olan degerleri alir
+    // Scanner.nextLine() ilk entere kadar olan degferleri aliyor
+
+  Unary Operators:
+        	++: increase the value by 1.
+        	-- : decreases the value by 1.
+
+        	Post vs Pre:
+        		Pre : changes the value immediately
+        				++ a
+        				-- a
+
+        		post: changes the value in the second step.
+        				a ++
+        				a --
+
+        Assignments operator          Shorthand operator
+            x=x+y                              x+=y
+            x=x-y                              x-=y
+            x=x*y                              x*=y
+            x=x/2                              x/=y
+            x=x%y                              x%=y
+            x=y                                x=y
+
+        int x = 900;
+            x+=100; // x = x + 100;
+        	x = 1000
+
+        String str = "Java";
+            str += " Programming"; // str = str +" Programming"
+
+
+        String str1 = "I love ";
+            str1+="Java ";   // str1 = str1 + "Java ";
+
+
+        int y = 1000;
+            y = y - 100;
+            y-=100;
+
+        int z = 2
+            z = z*2;
+            z *= 2;
+
+
+        Operators:
+        	+, -, *, /, %
+        	++, --
+        	=, +=, -=
+        	>, <, >=, <=, ==, !=
+
+
+
+    // ODEVLER Mutlaka yapilsin arkadaslar, iki tanecik sadece console ciktilari study-room-1 atilsin.
+   TASKS:
+   1. /*
+      create a class named FlightTicket, and declare the following
+      variables:
+              1. from
+              2. to
+              3. ticketPrice
+          use concatenation to display the full info of the ticket
+
+              ex:
+                  From Ankara to Istanbul is 599TL
+       */
+
+   2. /*
+      1. create a class named Phone Number and declare the following variables:
+      countryCode, areaCode, localNumber
+      Ask user to enter each values.
+      Use scanner class and get them one by one
+      use string concatenation to display the phone number as
+              ex:
+                          countryCode = 90
+                          areaCode = 532
+                          localNumber = 1234500
+
+                      output:
+                              Your phone number is +(90)532-1234500
+       */
+

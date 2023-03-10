@@ -1,0 +1,61 @@
+Day 8
+
+Neler Ogrendik
+1. main method
+2. print() & println()
+3. escape characters (sequences)
+4. primitive & String variables
+5. Concatenation
+6. Casting (Implicit,Explicit)
+7. Arithmetic Operators
+8. Scanner Class
+
+Arithmetic Operators
+    in math
+       10/4 = 2.5
+       100/3 =33.33333....
+   in Java
+       10/4 = 2;
+       100/3 = 33;
+       10.0 / 4 =2.5
+
+       20/6 =3
+       20/6.0 = 3.3333333...
+
+       remainder % modulus
+       10%3 -->1
+
+       math 45/8 =5,625
+
+       java 46/8 -->5   46 = 8*5+6
+            46%8 6
+
+            /*%
+            -+
+            100 * (3+4)
+
+    Casting:
+    //implicit casting,Widening, Automatic: casting smaller type to larger
+    // explicit casting, Narrowing, Manual: casting the larger type to smaller
+
+    Scanner
+
+    //1. adim Scanner objesi olusturalim
+            Scanner scan = new Scanner(System.in);
+
+        nextInt()
+        nextDouble()
+        nextBoolean()
+        nextLine()
+                            if we are using nextLine() method after the other methods of scanner, we MUST provide
+                            one additional nextLine(), before the actual nextline() usage
+
+        scannerObjectName.close;
+
+
+        ODEV
+        Canvasa yuklenen Day08-09 Operators dosyasindaki Unary Operator oncesindeki 5 TASK cozulecek.
+        console outputlar Study Room1e atiniz.
+
+        Note: Videolari tekrar izlemeyi ihmal etmeyin!!!
+

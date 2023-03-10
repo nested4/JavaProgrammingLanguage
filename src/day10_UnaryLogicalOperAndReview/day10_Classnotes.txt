@@ -1,0 +1,39 @@
+Day10
+
+Arithmetic Operators (*/%+-)             --done
+Shorthand Operators (=,-=,+=,*=,/=,%=)   --done
+Relational Operators (>,>=,<,<=,==,!=)   --done
+Unary Operators (+,-,++,--)
+Logical Operators (&, &&, |,||, ^ )
+
+
+Unary Operators
+
+    ++; increases teh value by one
+    --: decreases the value by one
+
+    Post vs Pre
+     Pre: changes the value immediately
+     ++a;
+     --a;
+     Post: changes the value in the second step;
+     a++
+     a--
+
+&& AND VE
+    both
+    in logical operator, both expression should be true to return true;
+
+|| OR Veya
+    either
+    only one expression needs to be true to return true.
+    if || returns false, both expresions are false
+
+^ : X OR Yada
+    returns true if both sides are not same (XOR - FARKLIYSAN KAZANIRSIN)
+
+    false ^ false = false
+    false ^ true  = true
+    true ^ false  = true
+    true ^ true   = false
+

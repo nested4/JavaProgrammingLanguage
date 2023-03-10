@@ -1,0 +1,100 @@
+Java  Day4
+
+Escape sequences: MUST be given with double quote
+    \n: starts a new line
+    \t: paragraph space(tab)
+    \\: single back slash
+    \": double quote
+
+
+    ----------------------------------------------------------
+    Primitive Data Types:
+
+    declare variable:
+    		dataType  variableName = data;
+    	       int i1 = 5;
+    	       int i2;
+    	       i2=10;
+
+
+    		numerical primitives:
+    					double > float > long > int > short > byte
+
+
+    primitives:
+    	int: for integers
+    	double: for decimals
+    	char: for single character '' single quote
+    	boolean: true/false
+
+    none primitive:
+    String: sequence of characters, String of text, "" double quote
+        String myName = "ihsan";
+
+       PrimitiveCasting
+       		smaller primitives can be directly assigned to larger primitive type
+       		(implicit casting)(Widening Casting)
+
+               larger primitives can NOT be directly assigned to smaller primitive types (need to be casted manually)
+               (explicit casting) (Narrowing Casting) (Data Lost) (Veri kaybi soz konusu)
+
+       		sout  : prints to console
+            soutv : prints the name of the variable and the value in a format, useful to print the values
+
+
+                   Tasks1: 1. Create a class called Triangle.java and print:
+
+                                            ^
+                                           / \
+                                          /   \
+                                         /     \
+                                        /       \
+                                        ---------
+
+                         2. DataTypesHomework adinda bir class olusturun ve asagidaki adimlari yapin
+
+                                    1- Değeri 'true' olan bir boolean oluşturunuz. Boolean'ı yazdırınız.
+                                    2- Değeri 10.01 olan bir double oluşturunuz. Double'ı yazdırınız.
+                                    3- Değer i 'false' olan bir boolean oluşturunuz. Boolean'ı yazdırınız.
+                                    4- Değeri 5 olan bir byte oluşturun. Bu byte'ı yazdırın.
+                                    5- Değeri -4 olan bir byte oluşturun. Bu byte'ı yazdırın.
+                                    6- Değeri a olan bir char oluşturun. Bu char'ı yazdırın.
+                                    7- Değeri z olan bir char oluşturun. Bu char'ı yazdırın.
+                                    8- Değeri & olan bir char oluşturun. Bu char'ı yazdırın.
+                                    9- Değeri 120 olan bir double oluşturunuz. Double' ı yazdırınız.
+                                    10-Değeri 120.005 olan bir double oluşturunuz.Double'ı yazdırınız.
+                                    11-Değeri 550.24  olan bir double oluşturunuz.Double'ı yazdırınız.
+                                    12-Değeri 121.005f olan bir float oluşturunuz.Float'ı yazdırınız.
+                                    13-Değeri 123.3365f olan bir float oluşturunuz.Float'ı yazdırınız.
+                                    14-Değeri 3.55f olan bir float oluşturunuz.Float'ı yazdırınız.
+                                    15-Değeri 15 olan bir int oluşturun.Int'i yazdırın.
+                                    16-Değeri 100 olan bir int oluştur.Ve bu int 'i yazdır.
+                                    17-Değeri 120 olan bir int oluşturın.Int'i yazdırın.
+                                    18-Değeri -6500 olan bir int oluşturunuz.Int'i yazdırınız.
+                                    19-Değeri 12 olan bir short oluşturunuz.Short'u yazdırınız.
+                                    20-Değeri 23 olan bir short oluşturunuz.Short'u yazdırınız.
+                                    21-Değeri -100 olan bir short oluşturun.Short'u yazdırın.
+
+                        3. Create a class named Rectangle, write a program that can calculate the area & perimeter of any given Rectangle
+                           						length
+                           						width
+
+                           						area = length * width
+                           						perimeter =  2 * (length + width)
+
+                       4. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+                          					Hints: 1 gallon = 3.79 litters
+
+                       5. Create a class named KgToPounds, write a program that can convert kg (int) to pounds (double)
+                         					Hints: 1 kg = 2.2 pounds
+
+                       6. Create a class called StudentInfo, and declare variables for the followings:
+                              			1. student name (String)
+                              			2. age (int)
+                              			3. gender (char)
+                              			4. school name (String)
+                              			5. phone number (String) (###)-###-####
+                              			6. full time (boolean)
+
+
+

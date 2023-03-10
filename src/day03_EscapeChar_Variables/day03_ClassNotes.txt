@@ -1,0 +1,61 @@
+files & their extensions:
+			text file  					.txt
+            PDF files					.pdf
+            Pictures					.jpg, .png .gif, .tiff, etc
+   			word document				.doc
+   			excel files					.xlsx
+        	power point					.ppt
+        	java files					.java   (Source Code)
+        	java file                   .class (Byte Code)
+
+
+        how to open preference window:
+		windows:
+			file -> settings
+
+		Mac:
+			IntelliJ IDEA -> Preference
+
+        How to create project?
+        		File -> new -> Project
+
+        How to rename?
+        		right click -> refactor ->
+
+        package: used for storing java files in anorganized manner
+
+        			right click src folder -> new  -> package
+
+        			package name starts with lower_case_letter
+
+        			camelCase
+        Java File:
+        			right click PACKAGE -> new -> Java Class
+
+        			class name  starts with UpperCaseLetter
+
+        			CamelCase
+
+        formatting the codes:
+        		windows:
+        			ctrl + alt + L
+
+        		Mac:
+        			Command + Option + L
+
+        main method:
+
+        		1. type "main" + Enter
+        		2. psvm + Enter
+
+
+        	println():
+        		type "sout" + Enter
+
+
+        ScreenShot  PRTSC     Win+Shift+
+
+        System.out.println() : used for regular outputs (Black- Siyah )
+        System.err.println() : used for printing error messages ( Red Kirmizi)
+
+        Java is Case-Sensitive Language. Kucuk harf buyuk harf duyarli
