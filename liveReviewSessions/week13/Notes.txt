@@ -1,0 +1,64 @@
+What is Encapsulation?
+    Definition: Data hiding
+    PIQ: How do you implement this OOP concept?
+    1. Make all or necessary fields/attributes/variables private access modifier
+    2. PUBLIC Getter and Setter methods we reach the fields and do some action (read, writing, using the field)
+    3. We don't reach the fields directly, we reach through some conditions
+    4. We will use this concept at Singleton Driver Concept
+    5. Salary field (condition for setting the field, >0), retrive your username that you have forgatten from an application, getter method for userName might need your email
+    6. CONDITION part is not necessary, depends on your code scenario
+
+Future Topic: ENUMs
+
+Concepts in Coding: they encounter a problem, until some genious finds a general solution
+
+When you are learning a new topic: COnsider this question first--Why did they need to create this?
+Second: Have your OWN words to describe a topic.
+
+***** How dod you use OOP concepts in your (testing) Framework? -- Cucumber Framework
+
+OOP Concepts we will learn:
+Encapsulation
+Inheritance
+Abstraction
+Polymorphism
+
+** Write Only Classes
+        -- Only have setter method for that field
+        -- Db is write only class
+** Read-ONLY Classes
+        -- Only have getter nethod for that field: Credential Class UserName field is read-only, immutable (Strings) -- No mutation
+        Mutation: Changing
+        -- Person class is Read-Only
+
+INHERITANCE
+1. When a class inherits fields and actions of another class
+2. with the extends keyword
+3. Builds a "IS A" relationShip   (we also "HAS A" relationship)
+
+What can be inherited?
+- all public fields and methods
+- all protected var. and meth.  --- In actual life, developers usually make the fields PROTECTED
+- all default var. and meth. YES only if they are in the same package
+
+What can NOT be inherited?
+- private vars. and meth.
+- constructors are not inherited, though Parent Constructor are called first with super()
+    Class A(){}  --Parent
+    Class B extends A(){} -- Child
+    main{ B obj = new B(); first constructor of A class is called then B }
+- final class can NOT be inherited
+    final class ABC(){}
+    NOT SAY class XYZ extends ABC
+
+    Benefit: Reusability and Maintability
+
+    CTRL +R or CMND+ R o easily replace code with a new one
+
+    Normally we get Default Constructor for FREE, but if you already created a parameterized constructor, Default IS NOT FREE anymore
+
+    Last Example:
+    Parent Book Class: title, type, author, price
+        - Ebook
+        - PaperBook
+        - AudioBook

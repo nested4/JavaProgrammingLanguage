@@ -1,0 +1,24 @@
+Multi-dimensional Arrays:
+    n dimensianal array contains (n-1) dimensional arrays
+
+Custom Methods: Re-usability
+    Strings : methods
+        charAt(), substring() ....
+
+void : No return type
+return Type methods
+
+Syntax of Custom Methods:
+
+Access-Modifiers Specifiers  return-Type  methodName(Parameters){
+         Statements - Codes
+}
+
+Access-Modifiers : public (you can reach this method from anywhere in your project) , we have three others
+Specifiers : static (you can call this method with the class name)
+return-Type : Void , some DataType
+parameter : any dataType
+
+Your method names should give some idea of the method itself / meaningful
+
+
