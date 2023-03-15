@@ -1,2 +1,2 @@
 # JavaProgrammingLanguage
-My Java Programming Teaching Codes
+My Java Programming Codes
