@@ -1,0 +1,91 @@
+Day 13 For Loops
+
+Review
+
+Single if: for one condition
+        if(Condition){
+			StatementA
+		}
+
+if & else: when there are only two option/possibilities ( not more not less than 2 condition)
+
+
+		if(Condition){
+			StatementA
+		}else{ // otherwise
+			StatementB
+		}
+
+		StatementA: if condition MUST be true
+		StatementB: if condition MUST be false
+
+		Yes or No
+		Enligible or not eligible
+
+
+Multi-branch if: when there are three or more option/possibilities
+
+		if(Condition1){
+			StatementA
+		}else if(Condition2){
+			StatementB
+		}else{
+			StatementC
+		}
+
+		ONLY one block gets executed
+
+		StatementA: Condition1 MUST be true
+		StatementB: Condition1 MUST be false, Condition2 MUST be true
+		StatementC: Condition1 & Condition2 MUST be false
+
+Ternary operator:   (condition) ? (return if true) : (return if false);
+                     num%2==0   ?    "Cift Sayi" : "Tek Sayi"
+                        false
+                    (condition) ? (return if true) : (new ternary);
+
+
+
+Switch Statement: switch, case, default, break
+
+	syntax:
+		switch(Data){
+
+			case data1:
+					Statements;
+					break;
+
+			case data2:
+					Statements;
+					break;
+
+			default:
+					Statements;
+
+		}
+
+
+	Case value MUST match with switch' data type and UNIQUE
+
+	Switch' Data can not be long, float, double and boolean data types
+
+	break: used for exiting the switch.
+			if we don't give the break statement, switch statement continue to execute the next block(s) until the break statement or } of the switch
+
+	default block gets executed if none of the case blocks matched.
+			there can only be one default block
+
+	or logic we can use it in switch by declaring case blocks back to back
+
+
+    For Loop
+    Java for loop is used to run a block of code for a certain number of times. The syntax of for loop is:
+
+    for (initialization; conditional; increment/decrement) {
+        // body of the loop
+        }
+
+    The initialExpression initializes and/or declares variables and executes only once.
+    The condition is evaluated. If the condition is true, the body of the for loop is executed.
+    The updateExpression updates the value of initialExpression.
+    The condition is evaluated again. The process continues until the condition is false.
