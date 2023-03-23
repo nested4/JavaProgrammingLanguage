@@ -1,0 +1,44 @@
+
+Method: Function
+
+
+		public  static  void  main(String[] args){
+
+		}
+
+	declaring a method:
+
+		Access-Modifier	 Specifier	  ReturnType     methodName(Parameter){
+
+		}
+
+		Access modifiers: public, protected, default, private
+
+		Specifier:  static, final, abstract, synchronized
+
+		Return Type: void, Any Data Type
+
+		Method Name: can be any name
+		/** + Enter --> method description
+
+		parameter: Any Data Type
+
+
+Custom Methods:
+	1. void methods
+	2. void methods with arguments
+	3. return methods
+	4. returns with argument
+	5. overloading
+
+	Method olusturma asamalari
+        1.public static (standart)
+        2.olusturacagimiz metod bize bir sonuc dondurecekse data tipini belirtmek gerekiyor
+        3.metod adi
+        4.metodun parantezi() parametre olup olmayacagi ve parametre data tipleri ve isimleri parantez icerisine yazilir
+        5 {} bodu ac, dondurulmesi islemi yap,
+        6.return keywordu ile dondurulmesi planlanan degeri dondur
+
+
+         Task
+         1.  Create a method that returns the name of the day based on the given number to the method
