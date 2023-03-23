@@ -39,6 +39,5 @@ Custom Methods:
         5 {} bodu ac, dondurulmesi islemi yap,
         6.return keywordu ile dondurulmesi planlanan degeri dondur
 
-
          Task
          1.  Create a method that returns the name of the day based on the given number to the method
