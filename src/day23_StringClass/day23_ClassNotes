@@ -1,0 +1,55 @@
+The String class in Java is a fundamental class that represents a sequence of characters.
+It is used extensively in Java programming and provides various features to manipulate and process text data.
+Here are some of the basic features of the String class:
+
+concat(): String Concatenation: The String class provides the "+" operator for concatenating two or more strings together.
+concat() method also do the same thing
+For example:
+
+        String str1 = "Hello";
+        String str2 = "World";
+        String str3 = str1 + " " + str2; // Output: "Hello World"
+        String str3 = str1.concat(str2)
+
+String Length: The String class provides the length() method that returns the number of characters in the string.
+For example:
+
+        String str = "Hello World";
+        int length = str.length(); // Output: 11
+
+String Comparison: The String class provides the equals() method for comparing two strings for equality.
+For example:
+
+        String str1 = "Hello";
+        String str2 = "Hello";
+        boolean isEqual = str1.equals(str2); // Output: true
+
+String Manipulation: The String class provides various methods to manipulate strings such as
+toUpperCase(), toLowerCase(), trim(), replace(), and many more.
+
+toUpperCase() and toLowerCase():
+        String str = "Hello World";
+        String upperCaseStr = str.toUpperCase();
+        String lowerCaseStr = str.toLowerCase();
+        System.out.println(upperCaseStr); // Output: "HELLO WORLD"
+        System.out.println(lowerCaseStr); // Output: "hello world"
+
+trim():
+
+            public static void main(String[] args) {
+            String str = "  Hello World   ";
+            String trimmedStr = str.trim();
+            System.out.println(trimmedStr); // Output: "Hello World"
+
+replace():
+
+        String str = "Hello World";
+        String replacedStr = str.replace("World", "Java");
+        System.out.println(replacedStr); // Output: "Hello Java"
+
+charAt():
+
+        String str = "Hello";
+        char firstChar = str.charAt(0);
+        System.out.println(firstChar); // Output: 'H'
+
