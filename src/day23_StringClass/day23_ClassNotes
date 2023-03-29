@@ -33,7 +33,6 @@ toUpperCase() and toLowerCase():
         System.out.println(lowerCaseStr); // Output: "hello world"
 
 trim():
-
         public static void main(String[] args) {
         String str = "  Hello World   ";
         String trimmedStr = str.trim();
