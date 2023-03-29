@@ -2,8 +2,8 @@ The String class in Java is a fundamental class that represents a sequence of ch
 It is used extensively in Java programming and provides various features to manipulate and
 process text data. Here are some of the basic features of the String class:
 
-concat(): String Concatenation: The String class provides the "+" operator for concatenating two or more strings together.
-concat() method also do the same thing
+concat(): String Concatenation: The String class provides the "+" operator for concatenating two or
+more strings together. concat() method also do the same thing
 For example:
 
         String str1 = "Hello";
@@ -11,8 +11,9 @@ For example:
         String str3 = str1 + " " + str2; // Output: "Hello World"
         String str3 = str1.concat(str2)
 
-String Length: The String class provides the length() method that returns the number of characters in the string.
-For example:
+String Length: The String class provides the length() method that returns the number of characters
+in the string. For example:
+
         String str = "Hello World";
         int length = str.length(); // Output: 11
 
