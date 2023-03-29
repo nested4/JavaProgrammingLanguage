@@ -44,7 +44,6 @@ replace():
         System.out.println(replacedStr); // Output: "Hello Java"
 
 charAt():
-
         String str = "Hello";
         char firstChar = str.charAt(0);
         System.out.println(firstChar); // Output: 'H'
