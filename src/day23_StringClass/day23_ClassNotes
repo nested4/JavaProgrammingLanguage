@@ -18,7 +18,6 @@ For example:
 
 String Comparison: The String class provides the equals() method for comparing two strings for equality.
 For example:
-
         String str1 = "Hello";
         String str2 = "Hello";
         boolean isEqual = str1.equals(str2); // Output: true
