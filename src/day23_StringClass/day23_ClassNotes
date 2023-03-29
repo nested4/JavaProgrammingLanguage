@@ -39,7 +39,6 @@ trim():
         System.out.println(trimmedStr); // Output: "Hello World"
 
 replace():
-
         String str = "Hello World";
         String replacedStr = str.replace("World", "Java");
         System.out.println(replacedStr); // Output: "Hello Java"
