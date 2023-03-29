@@ -13,7 +13,6 @@ For example:
 
 String Length: The String class provides the length() method that returns the number of characters in the string.
 For example:
-
         String str = "Hello World";
         int length = str.length(); // Output: 11
 
