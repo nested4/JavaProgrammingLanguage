@@ -1,6 +1,6 @@
 package day03_EscapeChar_Variables;
 
-public class PrimitiveDataTypes {
+public class C08_PrimitiveDataTypes {
 
     public static void main(String[] args) {
 
