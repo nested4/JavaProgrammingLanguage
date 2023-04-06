@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class DataTypesMinMaxValues {
+public class C02_DataTypesMinMax {
     public static void main(String[] args) {
 
         byte byteMin = Byte.MIN_VALUE;
