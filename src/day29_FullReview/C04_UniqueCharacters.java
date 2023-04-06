@@ -22,7 +22,7 @@ public class C04_UniqueCharacters {
 
 			Ex:
 				input:
-					AABCCD
+					AAABCCDFF
 
 				output:
 					BD
