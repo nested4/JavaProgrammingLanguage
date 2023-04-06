@@ -1,6 +1,6 @@
 package day03_EscapeChar_Variables;
 
-public class PrintlnVsPrint {
+public class C02_PrintlnVsPrint {
     public static void main(String[] args) {
         System.out.print("one");
         System.out.print("two");
