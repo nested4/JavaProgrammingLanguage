@@ -5,26 +5,26 @@ public class C01_CustomMethodsVoid {
 
         oddOrEven(5);
         ageOfPerson(1995);
-        printNumbers(10,20);
+        printNumbers(10, 20);
     }
 
 
-    public static void oddOrEven(int num){
-        if(num%2==0){
-            System.out.println(num+" is an Even number");
-        }else {
-            System.out.println(num+" is an Odd number");
+    public static void oddOrEven(int num) {
+        if (num % 2 == 0) {
+            System.out.println(num + " is an Even number");
+        } else {
+            System.out.println(num + " is an Odd number");
         }
     }
 
-    public static void ageOfPerson(int birthYear){
-        int age= 2023 - birthYear;
-        System.out.println("Your age is "+age);
+    public static void ageOfPerson(int birthYear) {
+        int age = 2023 - birthYear;
+        System.out.println("Your age is " + age);
     }
 
-    public static void printNumbers(int X, int Y){
-        for (int i=X+1; i<Y;i++){
-            System.out.print(i+" ");
+    public static void printNumbers(int X, int Y) {
+        for (int i = X + 1; i < Y; i++) {
+            System.out.print(i + " ");
         }
     }
 
