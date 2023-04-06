@@ -20,10 +20,9 @@ public class C03_RemoveDuplicates {
 /*Write a method that can remove the duplicated characters from a String
 			Ex:
 				input:
-					AABBCCBC
+					AAAABBCCBCAA
 
 				Output:
 					ABC
-
 			Hint: You can add each characters of the string into another String
 				  Condition: the character is not contained in the other String yet before you are adding*/
