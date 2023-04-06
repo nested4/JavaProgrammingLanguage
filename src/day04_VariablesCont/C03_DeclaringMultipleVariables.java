@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class DeclaringMultipleVariables {
+public class C03_DeclaringMultipleVariables {
 
     public static void main(String[] args) {
 
