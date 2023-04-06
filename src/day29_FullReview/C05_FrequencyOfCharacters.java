@@ -5,11 +5,11 @@ public class C05_FrequencyOfCharacters {
         System.out.println(frequencyOfChars("AAAABBBCDD", 'A'));
     }
 
-    public static int frequencyOfChars(String str, char ch){
-        int freq=0;
-        for (int i=0; i<str.length();i++){
-            char eachChar =str.charAt(i);
-            if(eachChar==ch){
+    public static int frequencyOfChars(String str, char ch) {
+        int freq = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char eachChar = str.charAt(i);
+            if (eachChar == ch) {
                 freq++;
             }
         }
