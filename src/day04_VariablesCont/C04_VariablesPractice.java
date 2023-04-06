@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class VariablesPractise {
+public class C04_VariablesPractice {
 
     public static void main(String[] args){
 
