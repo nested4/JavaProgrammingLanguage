@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class WideningCasting {
+public class C07_WideningCasting {
     public static void main(String[] args) {
 
         //byte < short < int < long < float <double
