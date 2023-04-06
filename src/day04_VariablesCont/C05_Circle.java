@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class Circle {
+public class C05_Circle {
     public static void main(String[] args){
         //declare variables
         //PI, radius, area, perimeter
