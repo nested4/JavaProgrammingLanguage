@@ -1,6 +1,6 @@
 package day03_EscapeChar_Variables;
 
-public class EscapeCharacters {
+public class C06_EscapeCharacters {
 
     public static void main(String[] args) {
 
