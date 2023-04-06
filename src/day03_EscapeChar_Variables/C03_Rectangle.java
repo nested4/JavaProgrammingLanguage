@@ -1,6 +1,6 @@
 package day03_EscapeChar_Variables;
 
-public class Rectangle {
+public class C03_Rectangle {
     public static void main(String[] args){
 
         System.out.println("* * * * * *");
