@@ -1,6 +1,6 @@
 package day03_EscapeChar_Variables;
 
-public class Comments {
+public class C01_Comments {
     public static void main(String[] args) {
 
 // ekrana consola Hello World! yazdirin
