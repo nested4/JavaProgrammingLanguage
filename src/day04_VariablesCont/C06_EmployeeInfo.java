@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class EmployeeInfo {
+public class C06_EmployeeInfo {
     public static void main(String[] args) {
 
         String employeeName = "John";
