@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class NarrowingCasting {
+public class C08_NarrowingCasting {
     public static void main(String[] args) {
 
         double rate = 3.9;
