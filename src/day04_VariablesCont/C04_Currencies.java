@@ -1,6 +1,6 @@
 package day04_VariablesCont;
 
-public class Currencies {
+public class C04_Currencies {
 
     public static void main(String[] args){
         //$1000 2023/03/02 exchange rates
