@@ -2,16 +2,17 @@ package day30_Review;
 
 public class C04_LocalVariables {
     /*
-    1. Bir metod icerisinde olusturulan bir degiskenin scope 'u o metodun icidir.Baska bir yerde o degiskeni
-    kullanamayiz , cagiramayiz. Bu tip degiskenlere LOCAL Degisken
-    2. For, while etc dongulerinde kendi scoplari vardir. Loop disinda kullanamayiz
-    3.Local degiskenler deger atamadan olusturulabilir. Ancak deger atamadan bu degiskenleri kullanamam.
+    1. Bir metod icerisinde olusturulan bir degiskenin scope'u o metodun icidir. Baska bir yerde o degiskeni
+    kullanamayiz, cagiramayiz. Bu tip degiskenlere LOCAL DEGISKENLER denir
+    2. For, while etc. dongulerinin de kendi scopelari vardir. Loop disinda iceride tanimlanan degiskenleri
+     kullanamayiz
+    3.Local degiskenler deger atamadan olusturulabilir. Ancak deger atamadan bu degiskenleri kullanamayiz.
      */
 
     public static void main(String[] args) {
      //   System.out.println(C05_ClassLevelVariables.Turkish_PI);
         String isim;
-//        System.out.println(isim);  // Local degisken initilize edilemeden kullanilamaz
+    //    System.out.println(isim);  // Local degisken initilize edilemeden kullanilamaz
 
         int i;
         //i++;  //initilize edilmeyen degisken kullanilamaz

@@ -1,14 +1,14 @@
 package day30_Review;
 
 public class C05_ClassLevelVariables {
-    /* Bir Class icerisinde tum methodlarin icerisinde bir degiskene erismek istiyorsam
-    onu methodlarin disinda clasin icinde tanimlamam gerekiyor. Class Level
+    /* Bir Class icerisinde tum methodlarin icerisinde bir degiskene erismek istiyorsak
+    onu methodlarin disinda, clasin icinde tanimlamam gerekiyor. CLASS LEVEL VARIABLE
 
-    1. Class icerisinde tanimlanan degiskenin scope u tum class tir.
-    2. Class level degiskenblere ilk deger atanmasa da olur.
-    3. Deger atanmadanda bu degiskenler kullanilabilir. JAVA bunlara default degerler zaten atar.
-    4. static olarak tanimlanan degiskenler. diger tum classlardan Class isimi ile erisilebilir oluyor.
-    5. eger metod da static ise , icerisine static olmayan hir birsey almaz
+    1. Class icerisinde tanimlanan degiskenin scope'u tum classtir.
+    2. Class level degiskenlere ilk deger atanmasa da olur.
+    3. Deger atanmadan da bu degiskenler kullanilabilir. JAVA bunlara default degerler zaten atar.
+    4. static olarak tanimlanan degiskenler, diger tum classlardan Class isimi ile erisilebilir olur.
+    5. eger metod da static ise , icerisine static olmayan hirbirsey almaz
 
      */
     static int turkish_PI=3;
@@ -27,7 +27,7 @@ public class C05_ClassLevelVariables {
         System.out.println("ch = " + ch);
         System.out.println("i = " + i);
 //        System.out.println("i2 = " + i2); // instance variable
-//        System.out.println("bl2 = " + bl2); // instance
+//        System.out.println("bl2 = " + bl2); // instance variable
 
 
 
@@ -39,8 +39,6 @@ public class C05_ClassLevelVariables {
         System.out.println(bl);
         System.out.println(i2); // instance
         System.out.println(bl2);
-
-
     }
 
 }

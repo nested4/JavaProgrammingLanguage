@@ -4,7 +4,7 @@ public class C01_DigitsLettersSpecialChars {
 
     public static void main(String[] args) {
 
-        char ch  = 'A';
+     char ch= 'A';
         int num1 = 'A';
         int num2 = 'Z';
         int num3 = 'a';
@@ -23,29 +23,29 @@ public class C01_DigitsLettersSpecialChars {
     }
 
 
-    public static void seperateCharacters(String str) {
-        String letters = "";
-        String digits = "";
-        String specialChars = "";
+        public static void seperateCharacters(String str){
+          String letters ="";
+          String digits="";
+          String specialChars="";
 
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);  //each char of str
+          for (int i=0; i < str.length();i++){
+              char ch=str.charAt(i);  //each char of str
 
-            if (ch >= 'A' && ch <= 'Z') {  // checks if ch is A-Z
-                letters += ch;
-            } else if (ch >= 'a' && ch <= 'z') {
-                letters += ch;
-            } else if (ch >= '0' && ch <= '9') {
-                digits += ch;
-            } else {
-                if (ch != ' ') specialChars += ch;
+              if(ch >='A' && ch<='Z' ){  // checks if ch is A-Z
+                  letters +=ch;
+              } else if (ch>='a' && ch<='z') {
+                  letters +=ch;
+              } else if (ch>='0' && ch<='9') {
+                  digits+=ch;
+              }else{
+                 if(ch!=' ') specialChars+=ch;
 
-            }
+              }
+          }
+            System.out.println("digits = " + digits);
+            System.out.println("letters = " + letters);
+            System.out.println("specialChars = " + specialChars);
         }
-        System.out.println("digits = " + digits);
-        System.out.println("letters = " + letters);
-        System.out.println("specialChars = " + specialChars);
-    }
 
 
 }

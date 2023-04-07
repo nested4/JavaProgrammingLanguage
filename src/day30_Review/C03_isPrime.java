@@ -20,7 +20,7 @@ public class C03_isPrime {
 
     public static boolean isPrime(int num) {
         boolean isPrime = false;
-        int factor = 0;    // Do not count 1 and the number itself
+        int factor = 0; // Do not count 1 and the number itself
 
         for (int i = 2; i<num ;i++) {
             if (num % i == 0) {

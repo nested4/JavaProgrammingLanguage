@@ -2,7 +2,8 @@ package day30_Review;
 
 public class C06_Hastane {
     public static void main(String[] args) {
-        Doktor hekim1 = new Doktor();     // instansce degiskenlere ancak oble olusturularak erisilebilir
+
+        Doktor hekim1 = new Doktor();     // instance degiskenlere ancak obje olusturularak erisilebilir
         System.out.println(hekim1.cinsiyet);
         System.out.println(hekim1.isim);
         System.out.println(hekim1.yas);
@@ -20,9 +21,10 @@ public class C06_Hastane {
         System.out.println(hekim1.uzmanMi);
 
         System.out.println(Doktor.fakulte);  // static degiskene Class ismi ile erisilebilir
-        System.out.println(hekim1.fakulte); // obje ile de static degiskenlere erisilebilir
+        System.out.println(hekim1.fakulte); // static degiskene obje ile de erisilebilir
 
         Doktor.fakulte = "Hacettepe Tip Fakultesi"; // static degisken degistirilirse tum class icin ortak oldugundan
+                                                    //tum objeler icin de degismis olur
         System.out.println(hekim1);
 
 
