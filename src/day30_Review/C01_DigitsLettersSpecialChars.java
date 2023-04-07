@@ -4,7 +4,7 @@ public class C01_DigitsLettersSpecialChars {
 
     public static void main(String[] args) {
 
-        char ch = 'A';
+        char ch  = 'A';
         int num1 = 'A';
         int num2 = 'Z';
         int num3 = 'a';
