@@ -5,11 +5,15 @@ public class C01_DigitsLettersSpecialChars {
     public static void main(String[] args) {
 
         char ch = 'A';
-        int num = 'Z';
-        int num2 = 'a';
+        int num1 = 'A';
+        int num2 = 'Z';
+        int num3 = 'a';
+        int num4 = 'z';
 
-        System.out.println(num);
+        System.out.println(num1);
         System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(num4);
 //        {
 //            int num1=5;
 //        }
