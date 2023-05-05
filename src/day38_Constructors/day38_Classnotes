@@ -1,0 +1,40 @@
+    Constructors
+        Review
+            Wrapper Class
+                1. parse methods: converts String to primitive
+                2. valueOf methods: converts String to wrapper class
+
+            Data Structures:
+                  	Array: size is fixed, supports both primitives & non primitives
+                  	Collection: size is dynamic, does not support primitives
+
+            Arraylist: part of the collection.
+
+            ArrayList Methods:
+
+                  	add(Data): adds the data after the last index of the ArrayList
+
+                  	add(index, Data): inserts the data at the given index
+
+                    size(): returns the total number of elements
+
+                    get(index): returns the element at the given index
+
+                    set(index,  Data): replaces the element at given index with the new element.
+
+                   	remove(int index): removes the element at the given index
+
+                    remove(Object): removes the given object from arraylist, returns boolean
+
+                    removeAll(Collection) : removes the given collection elements from the arraylist
+
+                    clear(): remove all the elements of the arraylist, size will be 0
+
+                    indexOf(Data): returns the first matching element's index number, returns int
+
+                  	lastIndexOf(Data): returns the last matching element's index number, returns int
+
+                  	contains(Data): returns true if the element is contained in the arraylist, otherwise returns false
+
+                   	equals(ArrayList): returns true if two arraylists are equal (same elements in same order), otherwise returns false
+

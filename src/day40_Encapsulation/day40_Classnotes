@@ -1,0 +1,26 @@
+
+
+     Encapsulation:
+
+            Access Modifiers:
+                public:     Always accesible at any where
+                protected:  Always visible within same package. Accesible outside to sub classes only
+                default:    Always visible within same package. Not accesible from outside packages
+                private :   Visible within same class ONLY
+
+
+    OOP: Object Oriented
+           Encapsulation:   Hiding Data by giving private access modifier
+                            use public getter&setter methods to read/write the data
+                            TO HAVE COMPLETE CONTROL OF DATA
+
+           getter:      read Only, public instance method
+                        has a Return Type
+                        Return type is same with the data type of the instance variable
+                        Has no parameter
+
+           setter:      Write Only, public instance method
+                        return type is void
+                        Has parameter
+                        Parameter type is same with the data type of the instance variable
+
