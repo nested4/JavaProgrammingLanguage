@@ -22,13 +22,13 @@ public class C02_LinkedList {
         System.out.println(letters);
         letters.add("S");
         System.out.println(letters);
-        letters.set(3,"L");
+        letters.set(3, "L");
         System.out.println(letters);
-        letters.add(4,"L");
+        letters.add(4, "L");
         System.out.println(letters);
 
         List<String> target = new LinkedList<>();
-        target.addAll(Arrays.asList("R","T","L","Q"));
+        target.addAll(Arrays.asList("R", "T", "L", "Q"));
 
         System.out.println(target);
         System.out.println("letters.containsAll(target) = " + letters.containsAll(target));
