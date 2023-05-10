@@ -43,9 +43,7 @@ public class C01_Collections {
         Set<String> coll8 = new HashSet<>();
         Set<String> coll9 = new TreeSet<>();
         Set<String> coll0 = new LinkedHashSet<>();
-        HashSet<String> set1= new HashSet<>();
-
-
+        HashSet<String> set1 = new HashSet<>();
 
 
     }
