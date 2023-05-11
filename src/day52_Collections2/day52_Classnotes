@@ -1,0 +1,44 @@
+Collections2
+				Set
+				Queue
+
+
+
+Collection (I-Interface):                   dynamic sized
+                          					ready methods
+                          					for non-primitives ONLY
+
+		List (I): Has Index, Allows Duplicates
+                  ArrayList (C): searching/accessing elements is faster.
+
+				  LinkedList (C): insertion /deletion of the element is faster
+
+				  Vector (C): is Synhcronized ==> thread-safe
+
+				  Stack (C): is Synhcronized ==> thread-safe. LIFO
+
+				        	pop() ===> LIFO
+
+		Set (I): Does not have index, does not allow duplicates
+
+				HashSet (C): order is random, accepts null, Fastest
+
+				LinkedHashSet (C): keeps the insertion order, accepts null
+
+				TreeSet (C): keeps sorted order (Ascending (Artan, Kucukten  Buyuge),
+				             Fastest if sorted data needed
+				             does not accept null
+
+
+		Queue(I): Duplicates are allowed
+		          poll() ===> FIFO
+                  First-in, First out order (FIFO)
+                  Does not have index
+
+                  PriorityQueue (C): Maintains random order
+
+
+          		  ArrayDequeue (C): Maintains insertion order
+
+
+          		  LinkedList (C): Maintains insertion order
