@@ -1,0 +1,101 @@
+        Java Review
+
+        11. Constructor
+		12. Class & Objects
+		13. Static vs Instance
+		14. Import Statements
+		15. Access Modifiers
+		16. OOP Encapsulation
+		17. OOP Inheritance
+        18. Method Overriding
+        19. Final keyword
+
+
+
+        11. Constructor : constructor name should be exact same name with the class name;
+                          every class must have a constructor
+                          initialize the every single instance variable
+                          used for creating objects
+                          if we dont create a constructor Java will create a default constructor
+                          constructor will execute whenever you create an object
+                          can be overloaded
+                          this() --> constructor in same class
+                          must be in the first line
+                          only call one constructor
+                          super() --> can be used in child classes to call the parant's constructor
+
+        12. Class & Objects:
+                            Class: A blueprint / template for objects
+                                   where objects come from
+                                   you can create as many objects as you want from a class
+
+
+                            Objects: an instance of a class
+                                     each object has its own memory
+
+       13.		 Static vs Instance: one copy  vs multiple copies
+
+                            static: belong to class
+                                    can be reached by className without creating an object
+
+                            instance: belongs to the object
+
+	   14. Import Statements
+
+	                regular import:
+	                        import packageInfo.classInfo;
+
+                    static import:
+                            import static packageInfo.classInfo.staticMember;
+
+       15. Access Modifiers:
+
+                    public      :Accessible from anywhere
+                    protected   :Accessible within same package. Also accesible to other packages if it's a sub class
+                    default     :Accessible within same package. Not accesible from outher packages
+                    private     :Accessible within same class.
+
+       16. OOP Encapsulation    Data Hiding by private access modifier
+                                use public getter setter method to access/read/write the data
+                                Complete Control of Data
+
+                                getter: read only, public instance method
+                                Return type is same with the private variable
+                                Has no parameters
+
+                                setter :Write Only, public instance method
+                                Return type is void
+                                Passes a parameter (the new value of the private variable)
+
+
+       17. OOP Inheritance   : Is a Relationship between classes (Parent/Child)
+                             extends keyword
+                             ClassB extends ClassA,
+                             ClassC extend ClassB,
+                             ClassD extend ClassC,
+
+                             sub-class   : inherits the accesible variables and methods from superclass
+                                           can also have its own variables and methods
+
+                             Super-class : inherits NOTHING from sub-class
+                                           Can contain common variables and common methods of all child classes
+                                           Can use polymorphism
+
+                             A class can extend only one class // multiple inheritance is not allowed
+                             A class can implement Multiple interfaces
+                             Without inheritance abstraction and polymorphism is NOT Possible!
+
+
+       18. Method Overriding
+                             Inheritance is required
+                             Different implementation to the method
+                             Must happen in Child class
+                             Access modifier must be same, or more visible
+
+
+       19. Final keyword   fixed/unchangable
+
+                           variable: can not be re-assigned
+                           method  : can not be overriden
+                           class   : can not be inherited
+
