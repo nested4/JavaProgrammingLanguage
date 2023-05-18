@@ -1,6 +1,6 @@
 package day57_JavaReview2;
 
-class Employee{
+class Employee {
     private String name;
     private double Salary;
     private char gender;
@@ -16,10 +16,10 @@ class Employee{
     }
 
     public void setSalary(double salary) {
-        if(salary<=0){
+        if (salary <= 0) {
             throw new RuntimeException("Salary can not be set to zero or a negative number!");
         }
-        if(salary<=10000){
+        if (salary <= 10000) {
             throw new RuntimeException("Insufficient Salary for a human being, Employees are NOT your Slaves!");
         }
         Salary = salary;
@@ -30,7 +30,7 @@ class Employee{
     }
 
     public void setGender(char gender) {
-        if(!(gender=='M' || gender=='m' || gender=='F' ||gender=='f')){
+        if (!(gender == 'M' || gender == 'm' || gender == 'F' || gender == 'f')) {
 //            return;
             throw new RuntimeException("Invalid Gender, Please enter 'M' or 'm' for Male, 'F' or 'f' for Female");
         }
@@ -38,18 +38,18 @@ class Employee{
     }
 
     public String getName() {
-        if(name==null){
+        if (name == null) {
             throw new RuntimeException("Name has not been set!");
         }
         return name;
     }
 
     public void setName(String name) {
-        if(name==null){
+        if (name == null) {
             throw new RuntimeException("Name can not be set to NULL!");
         }
 
-        if(name.isEmpty()){
+        if (name.isEmpty()) {
             throw new RuntimeException("Name can not be Empty!");
         }
         this.name = name;
@@ -68,12 +68,12 @@ class Employee{
 
 public class C03_EncapsulationReview {
     public static void main(String[] args) {
-        Employee employee1 = new Employee("Serka",23000,'M'); // default constructor
+        Employee employee1 = new Employee("Serka", 23000, 'M'); // default constructor
 //        System.out.println("employee1.name = " + employee1.name);
         employee1.setName("Serkan");
         System.out.println("employee1.getName() = " + employee1.getName());
 
-        Employee employee2 = new Employee("Sener",28000,'M');
+        Employee employee2 = new Employee("Sener", 28000, 'M');
         System.out.println(employee2);
         employee2.setGender('n');
         employee2.setSalary(50000);
