@@ -1,6 +1,6 @@
 package day57_JavaReview2;
 
- class A{
+class A {
     public A() {
         System.out.println("The constructor of Class A is executing");
     }
@@ -8,26 +8,21 @@ package day57_JavaReview2;
     public int x;
     public final static int y = 33;
 
-    public void methodA(){
-         System.out.println("Method A");
-     }
+    public void methodA() {
+        System.out.println("Method A");
+    }
 }
 
-class B extends A{
+class B extends A {
     public B() {
         // super();   // no need to call
         System.out.println("The constructor of Class B is executing");
     }
 
-    public void methodA(){
+    public void methodA() {
         System.out.println("Method A (overriden by ClassB)");
     }
 }
-
-
-
-
-
 
 
 public class C04_Inheritancereview {
