@@ -14,15 +14,14 @@ public class C07_Map_FrequencyOfCharacters {
         //           235
         //Collections.frequency()
 
-        Map<String,Integer> result= new LinkedHashMap<>();
+        Map<String, Integer> result = new LinkedHashMap<>();
         String[] charArray = str.split("");
         for (int i = 0; i < charArray.length; i++) {
-            Integer freq = Collections.frequency(Arrays.asList(charArray),charArray[i]);
-            result.put(charArray[i],freq);
+            Integer freq = Collections.frequency(Arrays.asList(charArray), charArray[i]);
+            result.put(charArray[i], freq);
         }
 
         System.out.println(result);
-
 
 
     }
