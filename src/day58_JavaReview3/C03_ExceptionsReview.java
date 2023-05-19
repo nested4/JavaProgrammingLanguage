@@ -20,9 +20,9 @@ public class C03_ExceptionsReview {
 
 
         try {
-            int  num = Integer.parseInt(str);
-        } catch (NumberFormatException e){
-            System.err.println("Invalid numeric format "+str);
+            int num = Integer.parseInt(str);
+        } catch (NumberFormatException e) {
+            System.err.println("Invalid numeric format " + str);
             e.printStackTrace();
         } finally {
             System.out.println("Hi Guys");
@@ -34,7 +34,7 @@ public class C03_ExceptionsReview {
 
     }
 
-    public static void methodWithRuntimeException() throws Exception{
-        throw  new RuntimeException(" This is a Runtime Exception");
+    public static void methodWithRuntimeException() throws Exception {
+        throw new RuntimeException(" This is a Runtime Exception");
     }
 }
