@@ -5,7 +5,7 @@ import java.util.*;
 public class C04_CollectionReview {
     public static void main(String[] args) {
         Set<Integer> set = new HashSet<>();
-        set.addAll(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
+        set.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5));
         System.out.println(set);
 
         Integer[] array = set.toArray(new Integer[0]);
@@ -18,7 +18,7 @@ public class C04_CollectionReview {
 //        System.out.println("name.size() = " + name.size());  //NullPointerException
 
         List<String> alayI = new Stack<>();
-        alayI.addAll(Arrays.asList("Hans","Sam","Tony","Jony","Hergel","Frank"));
+        alayI.addAll(Arrays.asList("Hans", "Sam", "Tony", "Jony", "Hergel", "Frank"));
         System.out.println("alayI = " + alayI);
 //        alayI.pop()
 
@@ -29,7 +29,7 @@ public class C04_CollectionReview {
         System.out.println("----------------------------------------");
 
         List<String> names = new LinkedList<>();
-        names.addAll(Arrays.asList("Hans","Sam","Tony","Jony","Hergel","Frank"));
+        names.addAll(Arrays.asList("Hans", "Sam", "Tony", "Jony", "Hergel", "Frank"));
 
 //        names.poll()
         System.out.println("((Queue)names).poll() = " + ((Queue) names).poll());
