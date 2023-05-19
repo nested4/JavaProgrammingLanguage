@@ -1,0 +1,182 @@
+Java Review3
+
+Topics:
+
+        20. OOP Abstraction
+        21. Abstract Class vs Interface
+        22. OOP Polymorphism
+        23. Reference Type Castings: Upcasting vs DownCasting
+        24. Exceptions: checked & unchecked
+        25. Exception Handling
+        26. final vs finally vs finalize
+        27. garbage collection & garbage collector
+        28. Collections: List, Set, Queue
+        29. Iterable & Iterator
+        30. Maps
+
+        20.OOP Abstraction : Hiding the implementation details
+                             focus on the essentials not on the detail
+                             What to do instead of  How to Do
+                             provides variables and methods
+
+
+                             abstract methods:  methods without  the body
+                                                meant to be overridden
+                            2 ways to use Abstraction
+
+        21. Abstract Class vs Interface
+                Abstract class : meant to be parent class
+                                 include common variable, common methods
+                                 can not be instantiated
+
+                Interface      : multiple inheritance
+                                 meant to be implemented
+                                 blueprint of a class
+                                 used for providing additional methods to the classes
+                                 variables static & final
+                                 methods: abtract methods, static methods
+
+        22. OOP Polymorphism   : objects can be in many forms
+                                 parent class/ interface can reference to its child objects
+                                 Reference types decides the variables and methods can be reached
+
+                                 List list =
+                                 Map map   =
+
+        23. Reference Type Castings: inheritence, Upcasting vs DownCasting
+                up-casting      : casting smaller type to larger (implicitly done)
+                                  to be able to assign child objects to parent reference type
+
+                downcasting     : casting larger to smaller
+                                  to be able to access the members of the objects
+
+       24. Exceptions: checked & unchecked
+                        Errors : Errors are severe problems, usually result from an external factor
+                                 not expected to be handled
+                                 due to lack of resource
+
+                        Exceptions : unexpected event, sth went wrong, can be handled/can be caught
+
+                        Checked: occurs during compile time
+                                 needs immediate attention
+
+                        Unchecked : occurs duringg runtime
+
+                        throw: used for creating exceptions manually
+
+       25. Exception Handling
+                        1. try & catch checked/unchecked , used in a block
+                        try{
+                           exception code
+                        }catch (ExceptionType e){
+                         sout....
+                         e.printStackTrace()
+                        } finally{
+
+                        }
+
+
+                       2. throws: used within the method signature
+                                  only declares the method is throwing an exception, not handling it
+                                  for checked exceptions only
+        Common Java Exceptions
+                most common exceptions in Java that you may encounter while developing Java applications:
+
+                NullPointerException (NPE): This exception occurs when you try to access or manipulate an object
+                reference that is null (has no assigned value).
+
+                NumberFormatException: This exception is thrown when you try to convert a string to a numeric
+                type, but the string does not have a valid numeric format.
+
+                ArrayIndexOutOfBoundsException: This exception occurs when you try to access an array element
+                with an invalid index, either negative or exceeding the array's bounds.
+
+                FileNotFoundException: This exception is thrown when you try to access a file that does not
+                exist or cannot be found at the specified path.
+
+                IOException: This is a general exception class that represents various input/output-related
+                errors, such as file reading/writing issues, network connection problems, etc.
+
+                ArithmeticException: This exception occurs when an arithmetic operation, such as division or
+                 modulo, encounters an error, such as dividing by zero.
+
+                ClassCastException: This exception is thrown when you try to cast an object to a type that it
+                is not compatible with.
+
+                IllegalArgumentException: This exception is typically thrown when a method receives an invalid
+                argument or an argument with an inappropriate value.
+
+                IndexOutOfBoundsException: This exception is similar to ArrayIndexOutOfBoundsException, but it
+                applies to data structures like lists and strings as well.
+
+                InterruptedException: This exception is thrown when a thread is waiting, sleeping, or in a
+                blocked state, and it gets interrupted by another thread.
+
+       26. final vs finally vs finalize
+                    final: keyword. can be used for variables, methods, and class.
+
+                    finally: Block. can be used with try & catch
+
+                    finalize: method. used by garbage collector to remove unreferenced objects from the heap
+                    finalize() method, you can include any cleanup tasks that need to be performed before the
+                    object is garbage collected. This may involve releasing system resources, closing files,
+                    or cleaning up any other objects associated with the instance.
+
+       27. garbage collection & garbage collector
+                    garbage collection: collection of unreferenced object
+
+                    garbage collector: process of removing unreferenced objects from the heap
+
+                    String str= "School"
+                    str= "School Garden"
+
+       28. Collections: List, Set, Queue
+                Size is dynamic
+                Only supports non-primitives
+                Ready methods
+
+
+                List: Accepts Duplicates. Has index numbers
+
+                    ArrayList: array based class, searching/retreating of the element is faster
+
+                    LinkedList: node based class, adding/removing of the element is faster
+
+                    Vector: array based class. synchronized ===> Thread-safe  ===> slower
+
+                    Stack: array based class.  synchronized ===> Thread-safe  ===> slower.
+                    pop() ==> LIFO
+
+
+                Set: Does not accept duplicates. does not have index numbers
+
+                    HashSet: Random order  (Fastest)
+
+                    LinkedHashSet: Insertion order
+
+                    TreeSet: Sorted order
+
+
+                Queue: Accepts Duplicates, does not have index.
+                       poll() ==> FIFO
+
+       29. Iterable & Iterator: used for removing objects while looping the collection
+
+                   hasNext()
+                   next()
+                   remove()
+
+           removeIf()
+       30. Maps
+                  collection of pairs. ( key & value ). key can not be duplicated
+                  Size is dynamic
+                  Only supports non-primitive data types
+
+
+                  HashMap       : The fastest, random order. accepts null key and null values
+
+                  LinkedHashMap : Insertion order.  accepts null key and null values
+
+                  HashTable     : random order. does not accept null. synchronized ===> Thread-safe  ===> slower
+
+                  TreeMap       : sorted order. key can not be null, values can be null
