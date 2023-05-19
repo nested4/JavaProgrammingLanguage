@@ -4,8 +4,8 @@ class Person {
     public String name;
     public char gender;
     public int age;
-    public static String species =  "Homo Sapiens";
-    public final static String speciesInEnglish =  "Human";
+    public static String species = "Homo Sapiens";
+    public final static String speciesInEnglish = "Human";
 
     public Person(String name) {
         this.name = name;
@@ -50,16 +50,13 @@ public class C01_ClassReview {
         System.out.println("Person.species = " + Person.species);
         System.out.println("Person.speciesInEnglish = " + Person.speciesInEnglish);
         System.out.println("person1.species = " + person1.species);
-        person1.species ="Homo Erectus";
+        person1.species = "Homo Erectus";
 
         System.out.println("Person.species = " + Person.species);  // one copy if you change it it changes for every objects
         System.out.println("person4.species = " + person4.species);
 
 //        person3.speciesInEnglish="Human Being";   // cannot be changed since final
 //        Person.speciesInEnglish ="Human Being";
-
-
-
 
 
     }
