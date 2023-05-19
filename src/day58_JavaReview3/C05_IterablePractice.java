@@ -14,17 +14,17 @@ public class C05_IterablePractice {
         //remove all the elements less than 4
 
         for (int i = 0; i < list.size(); i++) {
-            if(list.get(i)<4){
+            if (list.get(i) < 4) {
                 list.remove(i);
             }
         }
         System.out.println(list);
 
         List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5));
-        Iterator<Integer> iter= list2.iterator();
+        Iterator<Integer> iter = list2.iterator();
 
-        while (iter.hasNext()){
-            if(iter.next()<4){
+        while (iter.hasNext()) {
+            if (iter.next() < 4) {
                 iter.remove();
             }
         }
@@ -34,7 +34,7 @@ public class C05_IterablePractice {
 
         List<Integer> list3 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5));
 
-        list3.removeIf(a -> a >3);
+        list3.removeIf(a -> a > 3);
         System.out.println(list3);
 
 
