@@ -1,6 +1,6 @@
 package day46_AbstractClassAndInterface.animal;
 
-public abstract class  Animal {
+public abstract class Animal {
     private String name;
     private final String breed;
 
@@ -13,15 +13,16 @@ public abstract class  Animal {
     private final String color;
 
     public final static boolean canBreathe;
+
     static {
-        canBreathe=true;
+        canBreathe = true;
     }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         setName(name);
         this.breed = breed;
-        if(!(gender=='M'||gender=='m'||gender=='F'||gender=='f')){
-            System.err.println("Invalid Gender"+gender);
+        if (!(gender == 'M' || gender == 'm' || gender == 'F' || gender == 'f')) {
+            System.err.println("Invalid Gender" + gender);
         }
         this.gender = gender;
         setAge(age);
@@ -30,15 +31,15 @@ public abstract class  Animal {
     }
 
     public void setName(String name) {
-        if(name.isEmpty()){
+        if (name.isEmpty()) {
             System.err.println("Invalid Name");
         }
         this.name = name;
     }
 
     public void setAge(int age) {
-        if(age<0){
-            System.err.println("Invalid Age : "+age);
+        if (age < 0) {
+            System.err.println("Invalid Age : " + age);
         }
         this.age = age;
     }
@@ -75,11 +76,9 @@ public abstract class  Animal {
 
     public abstract void eat(); // abstract class different in all animals
 
-    public final void drink(){
-        System.out.println(name+" is drinking water");
+    public final void drink() {
+        System.out.println(name + " is drinking water");
     }
-
-
 
 
     @Override
